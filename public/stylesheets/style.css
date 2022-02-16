@@ -1,0 +1,104 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #181a1b;
+  color: white;
+}
+
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.title p{
+  text-align: center;
+}
+
+.highlight{
+  background-color: #197e16;
+}
+
+.highlight .ghostName{
+  background-color: #655419;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+td{
+  text-align: center;
+  font-size:20px;
+}
+
+th,td{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ghosts{
+  width: 70%;
+  margin-top: 5%;
+}
+
+.evidence{
+  width:40%;
+  border-collapse: collapse;
+}
+
+input{
+  height:20px;
+  width:20px;
+}
+
+/* Not part of required evidence */
+.impossible{
+  color: #ff0000;
+}
+
+/* Part of required evidence */
+.required{
+  color: #00ff00;
+}
+
+/* Candidate for last evidence */
+.maybe{
+  background-color: blue;
+}
+
+.evidence th, .evidence td{
+  border-collapse: collapse;
+  border-bottom: 1px solid #ffffff;
+}
+
+.evidence tr:nth-child(even) {
+  background-color: #393f3f;
+}
+
+.reset
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resetButton
+{
+  font-size:25px;
+}
+
+.ghostName{
+  font-weight: bold;
+}
+
+input[disabled]{
+  opacity: 0.15;
+}

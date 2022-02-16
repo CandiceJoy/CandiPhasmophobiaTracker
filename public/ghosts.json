@@ -1,0 +1,244 @@
+{
+  "evidence": [
+	{
+	  "id"  : "orb",
+	  "name": "Ghost Orb"
+	},
+	{
+	  "id"  : "dots",
+	  "name": "DOTS"
+	},
+	{
+	  "id"  : "book",
+	  "name": "Spirit Book"
+	},
+	{
+	  "id"  : "prints",
+	  "name": "Fingerprints"
+	},
+	{
+	  "id"  : "emf",
+	  "name": "EMF 5"
+	},
+	{
+	  "id"  : "box",
+	  "name": "Spirit Box"
+	},
+	{
+	  "id"  : "temp",
+	  "name": "Freezing Temps"
+	}
+  ],
+  "ghosts"  : [
+	{
+	  "name"     : "Banshee",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "prints",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Demon",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "temp",
+	  "evidence2": "prints",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Goryo",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "prints",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Hantu",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "temp",
+	  "evidence3": "prints",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Jinn",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "temp",
+	  "evidence3": "prints",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Mare",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "box",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Myling",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "prints",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Obake",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "orb",
+	  "evidence3": "prints",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Oni",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "temp",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Onryo",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "box",
+	  "evidence3": "temp",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Phantom",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "box",
+	  "evidence2": "prints",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Poltergeist",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "box",
+	  "evidence2": "prints",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Raiju",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "orb",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Revenant",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "emf",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Shade",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "temp",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Spirit",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "box",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Mimic",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "box",
+	  "evidence2": "temp",
+	  "evidence3": "prints",
+	  "evidence4": "orb"
+	},
+	{
+	  "name"     : "The Twins",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "box",
+	  "evidence3": "temp",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Wraith",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "emf",
+	  "evidence2": "box",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Yokai",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "box",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Yurei",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "temp",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	}
+  ]
+}
