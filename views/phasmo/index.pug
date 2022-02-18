@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+    title= "Candice's Phasmophobia Evidence Tracker"
+    link(rel='stylesheet', href="/phasmo/style.css")
+  body
+    block content
+      div(class="title")
+        p= title
+
+      p(class="ghostDetails")
+        Name
+      p
+        ul
+          Info
+        ul
+          Strength
+        ul
+          Weakness
+
+      table(class="evidence")
+        tr
+          th Evidence
+          th Probability
+          th Found
+          th Excluded
+
+        each evi, key in evidence
+          tr
+            td(class="evidenceName")= evi
+            td(class="prob" id=key)
+            td
+              input(type="checkbox" class="found" id=key)
+            td
+              input(type="checkbox" class="excluded" id=key)
+
+      div(class="reset")
+        button(class="resetButton" value="Reset") Reset
+
+      table(class="ghosts")
+        tr
+          th Ghost
+          th Evidence 1
+          th Evidence 2
+          th Evidence 3
+          th Evidence 4
+        each ghost in ghosts
+          tr(class="ghost highlight" id=ghost.name)
+            td(class="ghostName")= ghost.name
+            td(class="ghostEvidence" id=ghost.evidence1 )= evidence[ghost.evidence1]
+            td(class="ghostEvidence" id=ghost.evidence2 )= evidence[ghost.evidence2]
+            td(class="ghostEvidence" id=ghost.evidence3 )= evidence[ghost.evidence3]
+            td(class="ghostEvidence" id=ghost.evidence4 )= evidence[ghost.evidence4]
+      script(type="text/javascript" src="/phasmo/client.js")
