@@ -239,6 +239,36 @@
 	  "evidence2": "temp",
 	  "evidence3": "dots",
 	  "evidence4": ""
+	},
+		{
+	  "name"     : "Thaye",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "orb",
+	  "evidence2": "book",
+	  "evidence3": "dots",
+	  "evidence4": ""
+	},
+		{
+	  "name"     : "Moroi",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "box",
+	  "evidence2": "temp",
+	  "evidence3": "book",
+	  "evidence4": ""
+	},
+	{
+	  "name"     : "Deogen",
+	  "info"     : "",
+	  "strength" : "",
+	  "weakness" : "",
+	  "evidence1": "box",
+	  "evidence2": "book",
+	  "evidence3": "dots",
+	  "evidence4": ""
 	}
   ]
 }
